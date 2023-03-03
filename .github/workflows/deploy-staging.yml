@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version:16
-      - name: npm install and build webpack
+      - name: npm install and build webpack with node 16
         run: |
           npm install
           npm run build
